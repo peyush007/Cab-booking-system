@@ -1,16 +1,12 @@
 package com.cs.project.uber.UberApp.repositories;
 
-import java.util.Optional;
-
+import com.cs.project.uber.UberApp.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.cs.project.uber.UberApp.entities.User;
-
+import java.util.Optional;
 
 @Repository
-public interface UserRepository extends JpaRepository<User, Long>{
-
-	Optional<User> findByEmail(String email);
-
+public interface UserRepository extends JpaRepository<User, Long> {
+    Optional<User> findByEmail(String email);
 }

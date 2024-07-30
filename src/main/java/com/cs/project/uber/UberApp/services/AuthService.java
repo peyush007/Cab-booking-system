@@ -5,11 +5,10 @@ import com.cs.project.uber.UberApp.dto.SignupDto;
 import com.cs.project.uber.UberApp.dto.UserDto;
 
 public interface AuthService {
-	
-	String login(String email,String password);
-	
-	UserDto signup(SignupDto signupDto);
-	
-	DriverDto onboardNewDriver(Long userId);
 
+    String login(String email, String password);
+
+    UserDto signup(SignupDto signupDto);
+
+    DriverDto onboardNewDriver(Long userId);
 }

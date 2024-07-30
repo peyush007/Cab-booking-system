@@ -4,5 +4,3 @@ error while sending the request to http://localhost:8080/riders/requestRide
 
 
 
-requestbody
-![requestbody](https://github.com/peyush007/uberApp/blob/main/2.png)
